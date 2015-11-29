@@ -1,11 +1,13 @@
 const React = require("react");
+const ReactDOM = require("react-dom");
+require('./app.scss')
 
 const Photolog = React.createClass({
 	render: function() {
 		return (
-			<div>Photolog</div>
+			<div>Photolog - edited</div>
 		)
 	}
 })  
 
-React.render(<Photolog/>, document.getElementById("container"));
+ReactDOM.render(<Photolog/>, document.getElementById("container"));
